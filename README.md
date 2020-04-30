@@ -6,7 +6,7 @@ $$ \log(\frac{Pr[y_{d+1}=1]}{1-Pr[y_{d+1}=1]})%20=%20\beta_0%20+%20\beta_1T_{d,1
 
 - return 
 
-$$\hat{y}_{n+1} = arg max_{y_j}\Delta P(Y=y_j | X = x_{n+1})$$
+$$ \hat{y}_{n+1} = arg max_{y_j} \Delta P(Y=y_j | X = x_{n+1}) $$
 
 when $p_{max}>t$; 
 
