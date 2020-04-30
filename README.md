@@ -5,7 +5,7 @@ $$ \log(\frac{Pr[y_{d+1}=1]}{1-Pr[y_{d+1}=1]})%20=%20\beta_0%20+%20\beta_1T_{d,1
 - $ T_{d,k} $ is LDA's k th feature from day d. $ y_{d+1} $ is  prediction results of day d+1
 
 - return 
-$$arg max_{y_j} $$
+$$\hat{y}_{n+1}=arg max_{y_j} $$
 
 when $p_{max}>t$; 
 
